@@ -27,8 +27,8 @@ header {
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 2.3rem;
-    bottom: 7rem;
+    left: 0rem;
+    bottom: 13rem;
 }
 
 .header_socials::after{
@@ -41,14 +41,14 @@ header {
 /* ======= ME ====== */
 .me {
     background:  linear-gradient(var(--color-primary), transparent);
-    width: 23rem;
+    width: 24rem;
     height: 24rem;
     position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
+    left: calc(50% - 14rem);
+    margin-top: 8rem;
     border-radius: 12rem 12rem 2rem 2rem;
     overflow: hidden;
-    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    padding: 6rem 2rem 2rem 2rem;
 
 }
 
@@ -57,8 +57,8 @@ header {
 .scroll_down {
     position: absolute;
     display: flex;
-    bottom: 11rem;
-    right: 0rem;
+    bottom: 17rem;
+    right: -2.3rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;

@@ -45,7 +45,7 @@ body {
 
 /* ================ GENERAL STYLES ====================*/
 
-.contaier {
+.container {
     width: var(--container-width-lg);
     margin: 0 auto;
 }
@@ -62,6 +62,7 @@ h1 {
 }
 section{
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section > h2, 
